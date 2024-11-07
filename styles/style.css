@@ -63,7 +63,7 @@ ol {
 
 .content__list {
   position: relative;
-  block-size: 398px;
+  block-size: 298px;
   overflow: auto;
 }
 
@@ -198,8 +198,8 @@ ol {
   font-size: inherit;
   color: currentColor;
   caret-color: #545050;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
 }
 
 .search-form__textfield:focus {
@@ -217,7 +217,7 @@ ol {
 .search-form__pseudo-checkbox {
   min-width: 19px;
   min-height: 19px;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,8 +233,8 @@ ol {
 .button {
   cursor: pointer;
   background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid currentColor;
+  color: currentColor;
   font-family: inherit;
   font-size: 18px;
   font-weight: 700;
